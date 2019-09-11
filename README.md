@@ -1,2 +1,1 @@
-# docker-deploy-flask-app
-flask 应用容器化
+flask 应用容器化： 以一个博客程序为例
