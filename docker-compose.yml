@@ -4,8 +4,8 @@ services:
         build: .
         image: blog
         ports:
-            - "5001:5000"
+            - "5000:5000"
         volumes: 
-            - /home/yyr/docker-flask-app:/code/blog
+            - /home/yyr/deploy-flask-app:/code/blog
         privileged: true
         restart: always
